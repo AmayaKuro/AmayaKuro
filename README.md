@@ -3,15 +3,15 @@
   🐧<i>I'm a person who into funny, enjoyable, mildly things like Bugattis and overpriced yatchs</i>🐧
   <ul align="left">
     <h4>Web that I made so far:</h4>
-    <li>A proxy chatbot to Bard(Gemini), <a href="https://github.com/AmayaKuro/Bard4Free">Bard4Free</a></li>
-    <li>Anime distriboutor, <a href="https://github.com/AmayaKuro/MyAnamel">ProtoV2d</a> (using WebSocket)</li>
+    <li>A proxy chatbot for Bard(Gemini), <a href="https://github.com/AmayaKuro/Bard4Free">Bard4Free</a></li>
+    <li>An Anime distributor, <a href="https://github.com/AmayaKuro/MyAnamel">MyAnamel</a></li>
   </ul>
   <hr>
   <a href="https://github.com/anuraghazra/github-readme-stats">
       <img src="https://github-readme-stats.vercel.app/api/top-langs?username=AmayaKuro&show_icons=true&theme=dark&count_private=true&langs_count=10&layout=compact">
   </a><br>
   <br>
-  <i>And there will definitely be more here in the future</i>😘
+  <i>And there'll definitely be more in here in the future</i>😘
   <div align="left">
     <h4>Where you can find me:</h4>
     <ul>
