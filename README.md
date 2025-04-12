@@ -15,9 +15,9 @@
   <div align="left">
     <h4>Where you can find me:</h4>
     <ul>
-    <li><p>Via Discord: @amayakuro</p></li>
-    <li><p>Via Email: vhtkiet9615@gmail.com</p></li>
-    <li><p>Via <a href="https://www.facebook.com/VHTuanKiet/">FaceBook</a></p></li>
+    <li><p>Via Discord: <a href="https://discord.com/users/674619549286662152">@amayakuro</a></p></li>
+    <li><p>Via Email: <a href="mailto:vhtkiet9615@gmail.com">vhtkiet9615@gmail.com</a></p></li>
+    <li><p>Via FaceBook: <a href="https://www.facebook.com/VHTuanKiet/">Kiet Vo</a></p></li>
     </ul>
   </ul>
 </div>
