@@ -1,11 +1,13 @@
 import { ParallaxBanner } from "react-scroll-parallax";
 import cls from "./Home.module.scss";
-import Kronii from "./../assets/images/kronii.png";
 import { Element } from 'react-scroll'
-import { AspectRatio, Badge, Button, Card, Grid, Heading, IconButton, Link, Text, Tooltip } from "@radix-ui/themes";
+import { Badge, Button, Card, Grid, Heading, IconButton, Link, Text, Tooltip } from "@radix-ui/themes";
 import { PiCodeDuotone, PiDiscordLogoDuotone, PiEnvelopeDuotone, PiFacebookLogoDuotone, PiGithubLogoDuotone, PiInfoDuotone, PiMagicWandDuotone, PiPhoneCallDuotone } from "react-icons/pi";
-import type { accentColors } from "@radix-ui/themes/src/props/color.prop.ts";
+import type { accentColors } from "@radix-ui/themes/src/props/color.prop.js";
 
+import Kronii from "./../assets/images/kronii.png";
+import Bard4Free from "./../assets/projects/bard4free.png";
+import MyAnamel from "./../assets/projects/myanamel.png";
 import tsIcon from "./../assets/icons/ts.svg";
 import jsIcon from "./../assets/icons/js.svg";
 import nodeJSIcon from "./../assets/icons/node-js.svg";
@@ -40,7 +42,7 @@ const ListSocial = [
 
 const List = [
     {
-        image: "https://github.com/AmayaKuro/Bard4Free/raw/main/.github/asset/front-page.png",
+        image: Bard4Free,
         name: "Bard4Free",
         type: "Web Application",
         description: "A proxy chatbot for Bard(Gemini) - Access Google's AI assistant for free",
@@ -56,7 +58,7 @@ const List = [
         ]
     },
     {
-        image: "https://github.com/AmayaKuro/MyAnamel/raw/main/.github/asset/preview1.png",
+        image: MyAnamel,
         name: "MyAnamel",
         type: "Web Application",
         description: "An Anime distributor - Your gateway to anime content",
