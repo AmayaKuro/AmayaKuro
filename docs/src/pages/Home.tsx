@@ -239,51 +239,41 @@ export default function PageHome() {
                         </Text>
                     </div>
                 </div>
-                <Grid columns={{
-                    initial: "1",
-                    md: "3",
-                    sm: "2",
-                    xs: "1"
-                }} gap={{
-                    initial: "1",
-                    md: "3",
-                    sm: "2",
-                    xs: "1"
-                }} width="auto" gapX="3" gapY="3">
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
                     {List.map((project, index) => (
                         <Card variant="surface" key={index} className={cls.Projects}>
-                            <AspectRatio ratio={16 / 9}>
+                            <div className={cls.ProjectImageContainer}>
                                 <img src={project.image} alt={project.name} className={cls.ProjectImage} />
                                 <div className={cls.ProjectTech}>
-                                    {project.tech.map((tech, index) => (
-                                        <Badge variant="outline" key={index} size="1" className={cls.ProjectTechItem}>
-                                            {tech}
+                                    {project.tech.map((tech, techIndex) => (
+                                        <Badge variant="outline" key={techIndex} size="1">
+                                            <span>{tech}</span>
                                         </Badge>
                                     ))}
                                 </div>
-                            </AspectRatio>
-
-                            <div className={cls.ProjectInfo}>
-                                <Heading size="3" className={"PrettyTitle"}>
-                                    {project.name} <Badge size="1">{project.type}</Badge>
-                                </Heading>
-                                <Text size="1" color="gray" className={cls.ProjectDescription}>
-                                    {project.description}
-                                </Text>
                             </div>
-                            <div className={cls.space}></div>
-                            <div className={cls.Action}>
-                                {project.buttons.map((button, index) => (
-                                    <a href={button.url} target="_blank" rel="noreferrer">
-                                        <Button size="1" key={index} variant="surface" className={cls.ProjectButton}>
-                                            {button.name}
-                                        </Button>
-                                    </a>
-                                ))}
+                            <div className={cls.ProjectContent}>
+                                <div className={cls.ProjectInfo}>
+                                    <Heading size="4" className={"PrettyTitle"}>
+                                        {project.name} <Badge size="1">{project.type}</Badge>
+                                    </Heading>
+                                    <Text size="2" color="gray">
+                                        {project.description}
+                                    </Text>
+                                </div>
+                                <div className={cls.Action}>
+                                    {project.buttons.map((button, buttonIndex) => (
+                                        <a href={button.url} target="_blank" rel="noreferrer" key={buttonIndex}>
+                                            <Button size="2" variant="surface">
+                                                {button.name}
+                                            </Button>
+                                        </a>
+                                    ))}
+                                </div>
                             </div>
                         </Card>
                     ))}
-                </Grid>
+                </div>
             </Element>
             <Element name="contact-me" className={cls.Section}>
                 <div className={cls.Heading}>
