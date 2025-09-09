@@ -237,7 +237,7 @@ export default function PageHome() {
                             my projects
                         </Heading>
                         <Text size="1" color="gray">
-                            heh...? too bad...
+                            ( ͠° ͟ʖ ͡°)
                         </Text>
                     </div>
                 </div>

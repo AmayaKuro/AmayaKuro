@@ -12,16 +12,16 @@ const routes = [
         id: "home"
     },
     {
+        name: 'about',
+        id: 'about-me'
+    },
+    {
         name: "skills",
         id: "my-skills"
     },
     {
         name: 'projects',
         id: 'my-projects'
-    },
-    {
-        name: 'about',
-        id: 'about-me'
     },
     {
         name: 'contact',
