@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: oven-sh/setup-bun@v2
-      - run: cp -r ./page ./
+      - run: cp -r ./page/* ./ && rm -rf ./page
       - run: bun i
       - run: bun run build && echo "amayakuro.id.vn" > ./dist/CNAME
       - run: cp ./dist/index.html ./dist/404.html
