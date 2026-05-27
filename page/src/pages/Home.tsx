@@ -36,7 +36,7 @@ const ListSocial = [
     {
         name: "Email",
         icon: <PiEnvelopeDuotone size={25} />,
-        url: "mailto:vhtkiet9615@gmail.com"
+        url: "mailto:me@amayakuro.com"
     }
 ];
 
