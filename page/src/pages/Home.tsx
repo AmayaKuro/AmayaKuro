@@ -293,7 +293,7 @@ export default function PageHome() {
                 </div>
                 <div className={cls.BodyContact}>
                     <Text align="center" size="3" color="gray">
-                        For work, please contact me via email: <Link color="gray" href="mailto:vhtkiet9615@gmail.com">vhtkiet9615@gmail.com</Link>
+                        For work, please contact me via email: <Link color="gray" href="mailto:me@amayakuro.com">me@amayakuro.com</Link>
                     </Text>
 
                     <div className={cls.List}>
